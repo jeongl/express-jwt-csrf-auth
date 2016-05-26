@@ -5,16 +5,16 @@ let Tokens = require('csrf');
 let tokens = new Tokens();
 
 exports.main = (app) => {
-	app.get(`/login`, [exports.checkPassWord, exports.generateToken]);
+  app.get(`/login`, [exports.checkPassWord, exports.generateToken]);
 }
 
 exports.checkPassWord = (req, res, next) => {
 
-	let passWordChecked = true;
+  let passWordChecked = true;
 
-	if ( passWordChecked ){
-		next();
-	}
+  if ( passWordChecked ){
+    next();
+  }
 }
 
 
