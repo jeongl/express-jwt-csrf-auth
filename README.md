@@ -1,6 +1,6 @@
 ### express-jwt-csrf-auth
 
-This application example demonstrates an authentication strategy using jwt tokens as well as a csrf token.  Popular client side validations tend to store the token client side, which is susceptible to XSS attacks.
+This application example demonstrates an authentication strategy using jwt tokens as well as a csrf token.  Popular auth examples tend to store the token client side, which is susceptible to XSS attacks.
 
 The goal of this auth is to implement strategies that i've researched that combat both csrf and XSS (well, better at least).
 
