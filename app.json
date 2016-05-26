@@ -1,0 +1,16 @@
+{
+  "apps" : [
+    {
+      "script"      : "server.js",
+      "watch"       : true,
+      "env": {
+        "NODE_ENV": "another",
+        "jwtSecret": 'shhhhh',
+        "timeInSecs": 60,
+        "refreshMinSecs": 40,
+        "refreshMaxSecs": 60
+      }
+    }
+  ]
+
+}
